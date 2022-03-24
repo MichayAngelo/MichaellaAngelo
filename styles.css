@@ -1,0 +1,355 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/*narbar*/
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(201, 144, 76);
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+}
+
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(241, 228, 211);
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover{
+    background-color: rgba(138, 130, 130, 0.719);
+    color: rgb(252, 215, 167);
+    box-shadow: 0 0 10px rgb(218, 133, 6);
+}
+
+
+/*HOME*/
+#Home{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 60px;
+    background: url("bg\ contact.webp") no-repeat center center/cover;
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(68, 51, 34);
+}
+
+#Home:before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+
+.Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 13%;
+    right: 11%;
+}
+
+
+.Headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.btn{
+    padding: 10px 25px;
+    background-color: rgb(245, 217, 126);
+    border: 3px solid rgb(104, 59, 5);
+    color: rgb(148, 83, 3);
+    outline: none;
+    margin-top: 15px;
+    transition: .6s ease;
+
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: bisque;
+    color: rgb(138, 85, 20);
+    box-shadow: 0 0 5px rgb(216, 160, 91), 0 0 10px rgb(214, 150, 72), 0 0 15px rgb(231, 173, 102);
+}
+
+
+
+/*About*/
+
+#About{
+    display: flex;
+    flex-direction: column;
+    background: url("textbg.webp") no-repeat center center/cover;
+    box-sizing: border-box;
+    padding: 20px;
+} 
+
+#pic{
+    display: flex;
+}
+
+#pic img{
+    margin-left: 60px;
+    width: 575px;
+    height: 400px;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.link ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.link ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+
+.link ul li a{
+    background-color: rgba(248, 187, 113, 0.658);
+    text-decoration: none;
+    color: rgb(75, 48, 14);
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+.link ul li a:hover{
+    background-color: rgba(138, 130, 130, 0.719);
+    color: rgb(252, 215, 167);
+    box-shadow: 0 0 10px rgb(218, 133, 6);
+}
+
+
+/*education*/
+
+
+.educ{
+    display: flex;
+    justify-content: left;
+    background-color: rgb(184, 107, 12);
+    position: sticky;
+    top: 0;
+}
+
+
+.educ ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+}
+
+.educ ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.educ ul li a{
+    text-decoration: none;
+    color: rgb(245, 221, 190);
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+.educ ul li a:hover{
+    background-color: rgba(138, 130, 130, 0.719);
+    color: rgb(252, 215, 167);
+    box-shadow: 0 0 10px rgb(218, 133, 6);
+}
+
+#education{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: url("bg .webp") no-repeat center center/cover;
+    box-sizing: border-box;
+    padding: 20px;
+} 
+
+.Headings{
+    font-size: 45px;
+    color: rgb(90, 53, 8);
+}
+
+#picture{
+    display: flex;
+}
+
+#picture img{
+    margin-top: 120px;
+    width: 575px;
+    height: 360px;
+}
+
+#educ{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+
+#educ h1{
+    justify-content: center;
+    font-size: 2.5rem;
+    color: rgb(90, 53, 8);
+}
+
+#educ h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+  }
+
+  
+
+
+
+
+/*contacts*/
+
+#Contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: url("bg about.webp") no-repeat center center/cover;
+    color: rgb(70, 50, 6);
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 20%;
+    border: none;
+    outline: none;
+    background-color: beige;
+}
+
+#msg{
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+    background-color: beige;
+
+}
+
+#send{
+    background-color: beige;
+    padding: 10px;
+    width: 10%;
+    margin: 40px;
+    border: none;
+    outline: none;
+}
+
+#send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(212, 178, 105);
+}
+
+
+/*accounts*/
+
+
+.accounts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 56, 53);
+    position: sticky;
+    top: 0;
+}
+
+.accounts ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+}
+
+.accounts ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.accounts ul li a{
+    text-decoration: none;
+    color: rgb(248, 235, 210);
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+.accounts ul li a:hover{
+    color: rgb(238, 180, 104);
+    box-shadow: 0 0 10px rgb(156, 143, 124);
+}
+
+
